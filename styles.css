@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Jersey+15&family=Rubik+80s+Fade&family=Rubik+Microbe&family=Rubik+Vinyl&family=Tapestry&display=swap');
+
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #7bb4e2, #ff8b94);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+h2{
+  font-size: 30px;
+}
+h1{
+  font-size: 70px;
+  font-family: cursive;
+}
+
+button {
+  background-color: white;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+/* Welcome Page */
+#usernamePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#usernamePage .con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#usernamePage input {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+}
+.start{
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.25s, border 0.35s, color 0.75s;
+}
+
+.start:hover{
+  background-color: rgb(248, 18, 56);
+  border: 3px solid white;
+  color: white;
+}
+
+
+
+
+/* Game Page */
+#gamePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#gameBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 7px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
+.reset{
+  background-color: yellow;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 3px solid black;
+  transition: background-color 0.5s, color 0.25s, border 0.25s;
+}
+.reset:hover{
+  background-color: #1491f7;
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+
+/* Result Page */
+#resultPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#resultMessage {
+  font-size: 5rem;
+  margin: 20px 0;
+}
+.re{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+}
+#scoreBoard {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.play{
+  background-color: greenyellow;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 3px solid black;
+  transition: background-color 0.5s, color 0.25s, border 0.25s;
+}
+
+.play:hover{
+  background-color: rgb(250, 86, 27);
+  border: 3px white solid;
+  color: white;
+}
+
+#game_Result{
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 400;
+  color: rgb(146, 28, 111);
+  font-style: normal;
+  margin-top: 60px;
+  text-shadow: 3px 3px 0px white;
+}
+
+#scoreBoard{
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+  font-size: 4rem;
+}
+#resultMessage{
+    font-family: "Tapestry", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.player{
+    font-family: "Rubik Microbe", serif;
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: bolder;
+    opacity: 0.75;
+}
+
+.welcome{
+    font-family: "Tapestry", serif;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 4rem;
+    color: white;
+    text-shadow: 4px 2px 0 grey;
+}
+
+.welcome span{
+  color: yellow;
+}
+
+.game{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px 4px white;
+}
+
+.one{
+  text-shadow: 2px 2px 4px red;
+}
+
+.two{
+  text-shadow: 2px 2px 4px green;
+}
