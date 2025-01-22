@@ -20,6 +20,5 @@ If you have any questions or suggestions for features, feel free to reach out:
 We’d love to hear your feedback!
 ---
 Play your self and Enjoy the game: [GameLink](https://bhavdeep-sai.github.io/Tic_Tac_Toe-Mini-Game/)
----
 
-                                                  # ThankYou
+# ThankYou
