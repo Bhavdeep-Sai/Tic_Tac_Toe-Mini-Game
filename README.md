@@ -18,7 +18,8 @@ If you have any questions or suggestions for features, feel free to reach out:
 - LinkedIn: [Link](https://www.linkedin.com/in/bhavdeepsai)
 
 We’d love to hear your feedback!
-LiveLink: [Bhavdeep](https://bhavdeep-sai.github.io/Tic_Tac_Toe-Mini-Game/)
+---
+Play your self and Enjoy the game: [GameLink](https://bhavdeep-sai.github.io/Tic_Tac_Toe-Mini-Game/)
 ---
 
 #ThankYou
